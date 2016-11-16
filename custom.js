@@ -476,52 +476,52 @@
             map.fitBounds(bounds);
         }
     }
-    window._chatlio = window._chatlio || [];
-    ! function() {
-        var t = document.getElementById("chatlio-widget-embed");
-        if (t && window.React && _chatlio.init) return void _chatlio.init(t, React);
-        for (var e = function(t) {
-                return function() {
-                    _chatlio.push([t].concat(arguments))
-                }
-            }, i = ["configure", "identify", "track", "show", "hide", "isShown", "isOnline"], a = 0; a < i.length; a++) _chatlio[i[a]] || (_chatlio[i[a]] = e(i[a]));
-        var n = document.createElement("script"),
-            c = document.getElementsByTagName("script")[0];
-        n.id = "chatlio-widget-embed", n.src = "https://w.chatlio.com/w.chatlio-widget.js", n.async = !0, n.setAttribute("data-embed-version", "2.0");
-        n.setAttribute("data-widget-id", "deafcfc6-7cfb-4eb8-4d74-72c23b578071");
-        n.setAttribute("data-start-hidden", false);
-        c.parentNode.insertBefore(n, c);
-        document.addEventListener('chatlio.ready', function(e) {
-            var chatlioNode = e.target;
-            var a99email = '';
-            var a99name = '';
-            var a99phone = '';
-            var phoneField = document.createElement('input');
-            phoneField.setAttribute('type', 'text');
-            phoneField.setAttribute('name', 'phone');
-            phoneField.setAttribute('placeholder', 'Phone');
-            var offline = chatlioNode.getElementsByClassName("chatlio-offline-message-container")[0];
-            if (typeof offline != 'undefined') {
-                offline.insertBefore(phoneField, offline.childNodes[3]);
-                offline.children[1].addEventListener('input', function(e) {
-                    a99email = this.value;
-                });
-                offline.children[2].addEventListener('input', function(e) {
-                    a99name = this.value;
-                });
-                offline.children[3].addEventListener('input', function(e) {
-                    a99phone = this.value;
-                });
-                offline.children[4].addEventListener('click', function() {
-                    _chatlio.identify(a99email, {
-                        name: a99name,
-                        email: a99email,
-                        phone: a99phone
-                    });
-                });
-            }
-        });
-    }();
+//     window._chatlio = window._chatlio || [];
+//     ! function() {
+//         var t = document.getElementById("chatlio-widget-embed");
+//         if (t && window.React && _chatlio.init) return void _chatlio.init(t, React);
+//         for (var e = function(t) {
+//                 return function() {
+//                     _chatlio.push([t].concat(arguments))
+//                 }
+//             }, i = ["configure", "identify", "track", "show", "hide", "isShown", "isOnline"], a = 0; a < i.length; a++) _chatlio[i[a]] || (_chatlio[i[a]] = e(i[a]));
+//         var n = document.createElement("script"),
+//             c = document.getElementsByTagName("script")[0];
+//         n.id = "chatlio-widget-embed", n.src = "https://w.chatlio.com/w.chatlio-widget.js", n.async = !0, n.setAttribute("data-embed-version", "2.0");
+//         n.setAttribute("data-widget-id", "deafcfc6-7cfb-4eb8-4d74-72c23b578071");
+//         n.setAttribute("data-start-hidden", false);
+//         c.parentNode.insertBefore(n, c);
+//         document.addEventListener('chatlio.ready', function(e) {
+//             var chatlioNode = e.target;
+//             var a99email = '';
+//             var a99name = '';
+//             var a99phone = '';
+//             var phoneField = document.createElement('input');
+//             phoneField.setAttribute('type', 'text');
+//             phoneField.setAttribute('name', 'phone');
+//             phoneField.setAttribute('placeholder', 'Phone');
+//             var offline = chatlioNode.getElementsByClassName("chatlio-offline-message-container")[0];
+//             if (typeof offline != 'undefined') {
+//                 offline.insertBefore(phoneField, offline.childNodes[3]);
+//                 offline.children[1].addEventListener('input', function(e) {
+//                     a99email = this.value;
+//                 });
+//                 offline.children[2].addEventListener('input', function(e) {
+//                     a99name = this.value;
+//                 });
+//                 offline.children[3].addEventListener('input', function(e) {
+//                     a99phone = this.value;
+//                 });
+//                 offline.children[4].addEventListener('click', function() {
+//                     _chatlio.identify(a99email, {
+//                         name: a99name,
+//                         email: a99email,
+//                         phone: a99phone
+//                     });
+//                 });
+//             }
+//         });
+//     }();
     var myIntervalFunc = [];
     var myLoopData = [];
     var formChild = [];
