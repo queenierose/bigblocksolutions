@@ -17,7 +17,7 @@
         if (viewportWidth < 991) {}
     });
     $(window).load(function() {
-//         $('.before-after-wrapper').find('.frame').twentytwenty();
+        $('.before-after-wrapper').find('.frame');
         setTimeout(function() {
             $('.hp-testimonials .frame dl dt ul li, .page-testimonials dl.frame dt.child-3').find('.dotWrap').fadeIn();
             $('.blog .post').find('h4').fadeIn();
