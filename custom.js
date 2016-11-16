@@ -17,50 +17,50 @@
         if (viewportWidth < 991) {}
     });
     $(window).load(function() {
-        $('.before-after-wrapper').find('.frame').twentytwenty();
-        setTimeout(function() {
-            $('.hp-testimonials .frame dl dt ul li, .page-testimonials dl.frame dt.child-3').find('.dotWrap').fadeIn();
-            $('.blog .post').find('h4').fadeIn();
-            $('.page-testimonials dl.frame dt.child-3').find('.dotWrap').fadeIn();
-            $('.home-content .service-pakages-wrapper .content').fadeIn('p').fadeIn();
-            $('.hp-testimonials .frame dl dt ul li, .page-testimonials dl.frame dt.child-3').find('.dotWrap').dotdotdot({
-                ellipsis: '...',
-                height: 58,
-                width: 322,
-                watch: "window"
-            });
-            $('.blog .post').find('h4').dotdotdot({
-                ellipsis: '...',
-                height: 38,
-                watch: "window"
-            });
-            $('.page-testimonials dl.frame dt.child-3').find('.dotWrap').dotdotdot({
-                ellipsis: '...',
-                height: 108,
-                watch: "window"
-            });
-            $('.home-content .service-pakages-wrapper .content').find('p').dotdotdot({
-                ellipsis: '...',
-                height: 160,
-                watch: "window"
-            });
-            $body.find('.slider-banner-wrapper .slider-banner').fadeTo('700', 1);
-        }, 500);
-        $body.find('.slider-banner-wrapper ul.slick-dots li button').empty();
-        if ($('#demoLightbox').length) {
-            $('.close-btn').on('click', function() {
-                $('#demoLightbox, .modal-backdrop').removeClass('in').hide();
-                $('body').removeClass('lightbox-open');
-            });
-        }
-        if (viewportWidth < 799) {
-            $("#chat-bubble").hide();
-        }
-        if (viewportWidth < 1199) {
-            addClassNameListener('fsForm2477762', 'fsCell45813796', function() {
-                alert('changed!');
-            });
-        }
+//         $('.before-after-wrapper').find('.frame').twentytwenty();
+//         setTimeout(function() {
+//             $('.hp-testimonials .frame dl dt ul li, .page-testimonials dl.frame dt.child-3').find('.dotWrap').fadeIn();
+//             $('.blog .post').find('h4').fadeIn();
+//             $('.page-testimonials dl.frame dt.child-3').find('.dotWrap').fadeIn();
+//             $('.home-content .service-pakages-wrapper .content').fadeIn('p').fadeIn();
+//             $('.hp-testimonials .frame dl dt ul li, .page-testimonials dl.frame dt.child-3').find('.dotWrap').dotdotdot({
+//                 ellipsis: '...',
+//                 height: 58,
+//                 width: 322,
+//                 watch: "window"
+//             });
+//             $('.blog .post').find('h4').dotdotdot({
+//                 ellipsis: '...',
+//                 height: 38,
+//                 watch: "window"
+//             });
+//             $('.page-testimonials dl.frame dt.child-3').find('.dotWrap').dotdotdot({
+//                 ellipsis: '...',
+//                 height: 108,
+//                 watch: "window"
+//             });
+//             $('.home-content .service-pakages-wrapper .content').find('p').dotdotdot({
+//                 ellipsis: '...',
+//                 height: 160,
+//                 watch: "window"
+//             });
+//             $body.find('.slider-banner-wrapper .slider-banner').fadeTo('700', 1);
+//         }, 500);
+//         $body.find('.slider-banner-wrapper ul.slick-dots li button').empty();
+//         if ($('#demoLightbox').length) {
+//             $('.close-btn').on('click', function() {
+//                 $('#demoLightbox, .modal-backdrop').removeClass('in').hide();
+//                 $('body').removeClass('lightbox-open');
+//             });
+//         }
+//         if (viewportWidth < 799) {
+//             $("#chat-bubble").hide();
+//         }
+//         if (viewportWidth < 1199) {
+//             addClassNameListener('fsForm2477762', 'fsCell45813796', function() {
+//                 alert('changed!');
+//             });
+//         }
         pageLoaded = true;
     });
     $(document).ready(function() {
