@@ -276,36 +276,36 @@
         arrows: false,
         fade: true,
         asNavFor: '.image-scroll-wrapper'
-    });
-    $body.find('.image-scroll-wrapper').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.image-scroll-display',
-        dots: false,
-        centerMode: true,
-        arrows: false,
-        focusOnSelect: true,
-        respondTo: 'window',
-        responsive: [{
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
-    $body.find('.testi-slider').slick({
-        dots: false,
-        infinite: true,
-        speed: 1000,
-        autoplaySpeed: 10000,
-        fade: true,
-        slidesToShow: 1,
-        cssEase: 'linear',
-        arrows: false,
-        autoplay: true,
-        adaptiveHeight: true
-    });
+//     });
+//     $body.find('.image-scroll-wrapper').slick({
+//         slidesToShow: 3,
+//         slidesToScroll: 1,
+//         asNavFor: '.image-scroll-display',
+//         dots: false,
+//         centerMode: true,
+//         arrows: false,
+//         focusOnSelect: true,
+//         respondTo: 'window',
+//         responsive: [{
+//             breakpoint: 480,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1
+//             }
+//         }]
+//     });
+//     $body.find('.testi-slider').slick({
+//         dots: false,
+//         infinite: true,
+//         speed: 1000,
+//         autoplaySpeed: 10000,
+//         fade: true,
+//         slidesToShow: 1,
+//         cssEase: 'linear',
+//         arrows: false,
+//         autoplay: true,
+//         adaptiveHeight: true
+//     });
     if ($('.page-testimonials').length) {
         var $size = $body.find(".testimonials").size();
         var x = 8;
