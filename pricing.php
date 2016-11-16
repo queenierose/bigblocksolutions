@@ -1,4 +1,4 @@
-<section class"choose-website-plan">
+<section class="choose-website-plan">
 <div class="container single-header" style="margin-top: 10px; margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px; background-color: ">
 <div class="row ">
 <div class="col-md-12"><h1 class="clear" style="text-align: center; color: #464646; font-size: 40px; line-height: 40px; font-weight: 300;">Choose a Website Plan</center></div>
