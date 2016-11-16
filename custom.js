@@ -240,43 +240,43 @@
             }
         }
     }
-    $body.find('.slider-banner').slick({
-        dots: true,
-        infinite: true,
-        speed: 3000,
-        autoplaySpeed: 5000,
-        fade: true,
-        slidesToShow: 1,
-        cssEase: 'linear',
-        arrows: false,
-        autoplay: true,
-        adaptiveHeight: true,
-        responsive: [{
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
-    $body.find('.hp-testimonials .frame').slick({
-        dots: false,
-        infinite: true,
-        speed: 2000,
-        autoplaySpeed: 4000,
-        fade: true,
-        slidesToShow: 1,
-        cssEase: 'linear',
-        arrows: false,
-        autoplay: true
-    });
-    $body.find('.image-scroll-display').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.image-scroll-wrapper'
-    });
+//     $body.find('.slider-banner').slick({
+//         dots: true,
+//         infinite: true,
+//         speed: 3000,
+//         autoplaySpeed: 5000,
+//         fade: true,
+//         slidesToShow: 1,
+//         cssEase: 'linear',
+//         arrows: false,
+//         autoplay: true,
+//         adaptiveHeight: true,
+//         responsive: [{
+//             breakpoint: 480,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1
+//             }
+//         }]
+//     });
+//     $body.find('.hp-testimonials .frame').slick({
+//         dots: false,
+//         infinite: true,
+//         speed: 2000,
+//         autoplaySpeed: 4000,
+//         fade: true,
+//         slidesToShow: 1,
+//         cssEase: 'linear',
+//         arrows: false,
+//         autoplay: true
+//     });
+//     $body.find('.image-scroll-display').slick({
+//         slidesToShow: 1,
+//         slidesToScroll: 1,
+//         arrows: false,
+//         fade: true,
+//         asNavFor: '.image-scroll-wrapper'
+//     });
 //     $body.find('.image-scroll-wrapper').slick({
 //         slidesToShow: 3,
 //         slidesToScroll: 1,
