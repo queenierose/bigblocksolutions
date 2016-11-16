@@ -276,7 +276,7 @@
         arrows: false,
         fade: true,
         asNavFor: '.image-scroll-wrapper'
-//     });
+    });
 //     $body.find('.image-scroll-wrapper').slick({
 //         slidesToShow: 3,
 //         slidesToScroll: 1,
