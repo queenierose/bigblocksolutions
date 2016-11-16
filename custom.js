@@ -10,9 +10,9 @@
     });
     $(document).ready(function() {
         function showpanel() {
-            $(".tab-slider-wrapper").fadeIn(1000).css("display", "inline-block");;
+            $(".tab-slider-wrapper").fadeIn(1000).css("display", "inline-block");
         }
-        setTimeout(showpanel, 2000)
+        setTimeout(showpanel, 2000);
         var $btn = $('.tab-slider-wrapper').find('dl');
         var $sbtn = $btn.find('.switcher');
         var $mf = $body.find('.choose-website-plan-table-mobile');
